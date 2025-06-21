@@ -1,13 +1,14 @@
 body {
-  background-image: url('images/8131612_43289.jpg');
+  background-image: url("8131612_43289.jpg"), linear-gradient(to right, #1e3c72, #2a5298);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background: linear-gradient(to right, #1e3c72, #2a5298);
   color: #fff;
 }
+
+
 
 .app {
   max-width: 500px;
