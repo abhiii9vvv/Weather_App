@@ -14,6 +14,11 @@ body {
   max-width: 500px;
   margin: 50px auto;
   padding: 20px;
+  min-height: 500px; /* Reserve space for weather card */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 header {
@@ -58,6 +63,8 @@ header {
   text-align: center;
   display: none;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  min-height: 180px; /* Reserve space to avoid layout shift */
+  transition: opacity 0.3s;
 }
 
 .weather-card h2 {
